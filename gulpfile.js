@@ -17,7 +17,7 @@ gulp.src("./src/**/hello.txt")
 
 var uglify = require('gulp-uglify');
  
-gulp.task('compress', function() {
+gulp.task('compressJS', function() {
   gulp.src('js/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist'))
