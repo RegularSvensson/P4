@@ -75,6 +75,8 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 ——
 Elias TODO’s
 
+View online: http://regularsvensson.github.io/P4/
+
 Website Optimization:
 
 1. Use devtools to find displayed/natural pixels of images. Resize images to approx. display size instead. CHECK
