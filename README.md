@@ -71,3 +71,19 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+——
+Elias TODO’s
+
+Website Optimization:
+
+1. Use devtools to find displayed/natural pixels of images. Resize images to approx. display size instead. CHECK
+2. Compress all images using gulp CHECK
+3. Mark scripts as async CHECK
+4. Put scripts at bottom of HTML CHECK
+5. Add media query, media=’print’ for print.css CHECK
+6. Comment out googleapi font stylesheet CHECK
+7. Inline style.css after minified CHECK
+8. Minify all javascript and CSS CHECK
+9. Correct all js & print script links & images to .min files CHECK
+10. Minify html?
