@@ -20,5 +20,6 @@ var uglify = require('gulp-uglify');
 gulp.task('compressJS', function() {
   gulp.src('js/*.js')
     .pipe(uglify())
+    .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist'))
 });
