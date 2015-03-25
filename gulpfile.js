@@ -23,3 +23,13 @@ gulp.task('compressJS', function() {
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist'))
 });
+
+
+var cssmin = require('gulp-cssmin');
+ 
+gulp.task('compressCSS', function () {
+    gulp.src('css/*.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('dist'));
+});
