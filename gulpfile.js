@@ -33,3 +33,15 @@ gulp.task('compressCSS', function () {
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('dist'));
 });
+
+
+var imagemin = require('gulp-imagemin');
+ 
+gulp.task('compressImg', function () {
+    return gulp.src('img/*.jpg')
+        .pipe(imagemin({
+            progressive: true,
+        }))
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('dist'));
+});
